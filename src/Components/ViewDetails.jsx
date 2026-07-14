@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import NavBar from "./NavBar";
 
 const ViewDetails = () => {
 
@@ -21,6 +22,7 @@ const ViewDetails = () => {
 
     return (
         <div>
+            <NavBar />
             <div className="container mt-4">
                 <div className="row">
                     <div className="col-12">
