@@ -1,6 +1,8 @@
 
 import axios from "axios";
 import React, { useState } from "react";
+import NavBar from "./NavBar";
+
 
 const AddDetails = () => {
 
@@ -36,6 +38,7 @@ const AddDetails = () => {
 
     return (
         <div>
+            <NavBar />
             <div className="container mt-4">
                 <div className="row justify-content-center">
                     <div className="col-md-8">
